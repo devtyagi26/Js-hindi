@@ -11,4 +11,4 @@ accountcity = "Pune"
 
 console.log(accountid);
 
-console.log([accountid, accountemail, accountpass, accountcity]);
+console.table([accountid, accountemail, accountpass, accountcity]);
