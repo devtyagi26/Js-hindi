@@ -6,6 +6,8 @@ let name = "Dev"
 let age = 21
 let isLoggedIn = false
 
-// Object
 
-con
+
+console.log(typeof arr);
+console.log(typeof null);
+console.log(typeof undefined);
