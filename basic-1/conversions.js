@@ -24,9 +24,27 @@ console.log(booleanisLoggedIn);
 // " " = false
 // "string" = true
 
-let num = 33
+// let num = 33
 
-let str = String(num)
-console.log(str);
-console.log(typeof str);
+// let str = String(num)
+// console.log(str);
+// console.log(typeof str);
 
+
+// *************** Operations ************** 
+
+let value = 3
+let negval = -value
+console.log(negval);
+ 
+console.log(1 + 2);
+console.log(1 + "2");
+console.log("1" + 2 + 2);
+console.log(1 + 2 + "2");
+
+console.log(+true);
+
+
+let gamecounter = 100
+++gamecounter;
+console.log(gamecounter);
