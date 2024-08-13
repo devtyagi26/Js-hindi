@@ -42,7 +42,7 @@
 
 
 
-// ************ Objects destructuring and JSON API
+// ************ Objects destructuring and JSON API****************
 
 const course = {
     coursename: "js in hindi",
@@ -52,5 +52,14 @@ const course = {
 
 // course.courseInstructor
 
-const {courseInstructor} = course
-console.log(courseInstructor);
+const {courseInstructor: instructor} = course // declare as a instructor
+console.log(instructor);
+
+
+// {
+//     // this is JSON look like an object
+//     name: "devashish"
+//     coursename: "js ij hindi"
+//     price: "free"
+// }
+
