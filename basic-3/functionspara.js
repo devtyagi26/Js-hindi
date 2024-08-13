@@ -26,5 +26,35 @@ function loginuser(username){
     }
     return `${username} just logged in`
 }
-console.log(loginuser("devashish"))
-console.log(loginuser());
+// console.log(loginuser("devashish"))
+// console.log(loginuser());
+
+
+function calculatecarprice(...num1){   // Here we use the REST operator
+    return num1 
+}
+// console.log(calculatecarprice(2));
+// console.log(calculatecarprice(200,300,400,666,300));
+
+const user = {
+    username: "devashish",
+    price: 199
+}
+function handleobj(anyobject){
+    console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
+    
+}
+// handleobj(user)
+
+handleobj({
+    username: "sam",
+    price: 99
+})
+
+const myarray = [200,300,500,100]
+
+function returnSecondValue(getarray){
+    return getarray[1]
+}
+console.log(returnSecondValue(myarray));
+console.log(returnSecondValue([200,300,500,100]));
