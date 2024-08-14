@@ -52,3 +52,4 @@ console.log(addtwo(5));
 const addtwo = function(num){   // Also called expression 
     return num + 2
 }
+
