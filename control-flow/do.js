@@ -12,7 +12,6 @@ while(array < arr.length){
     array = array + 1
 }
 
-
 let score = 11
 do{
     console.log(`Score is ${score}`);
